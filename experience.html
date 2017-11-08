@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>体验店</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/experience.css"> 
+</head>
+<body>
+	<div class="main">
+		<!-- 页面头部 -->
+		<div class="header">
+			<div class="nav1 hidden-xs hidden-sm hidden-md visible-lg">
+			        <div class="nav1-right">
+					<ul>
+						<li><a href="#">Global</a></li>
+						<li id="loginSession1"><a href="register.html">注册</a></li>
+						<li id="loginSession2"><a href="login.html">登录</a></li>
+					</ul>
+			   	</div>
+			</div>
+			<div class=" header-bottom hidden-xs hidden-sm hidden-md visible-lg">
+				<div class="nav-left">
+        				<div class="logo">
+            				<img src="img/index/logo.svg" />
+       				 </div>
+       				 <div class="nav-right">
+          					  <ul>
+                				<li >
+								  <a href="index.html" >首页</a> 
+								</li>
+					             <li><a href="products.html" >产品</a></li>
+					             <li><a href="store.html" >商城</a></li>
+					             <li><a href="experience.html" class="active">体验店</a></li>
+					             <li><a href="service.html" >服务</a></li>
+					             <li><a href="ColorOS.html" target="_blank" >ColorOS</a></li>
+					             <li><a href="#">社区</a></li>
+					             <li><a href="#">云服务</a></li>
+                               </ul>
+                     </div>
+                 </div>
+			</div>
+		</div>
+		<!-- 页面主体部分 -->
+		<div class="main-body">
+			<div class="page-name">
+				<a href="index.html">首页</a>
+				<span>&nbsp;/&nbsp;体验店</span>
+			</div>
+			<!-- 图片、搜索框 -->
+			<div class="top-img">
+				<img src="img/experience/hz.jpg" alt="">
+				<div class="select">
+					<input type="text" value="杭州市">
+					<button>搜索</button>
+				</div>
+			</div>
+			<!--省市级联-->
+			<div class="city-shop">
+				<div class="select-shop">
+					<p>请选择查询的城市:</p>
+					<select name="province" id="province">
+						<option value="-1">选择省份</option>
+					</select>
+					<select id="city" class="city">
+                        <option value="-1">选择市级</option>
+                    </select>
+                    <select id="shop" class="shop">
+						<option value="-1">所有门店类型</option>
+					</select> 	
+				</div>
+			</div>
+			<!-- 地图,标准服务,体验店-->
+			<div class="mid-body">
+				<div class="map">
+					<iframe src="map.html" frameborder="0"></iframe>
+					<div class="nav-mid">
+						<h2>标准服务</h2>
+						<ul>
+							<li>免费充电</li>
+							<li>手机保养+维护</li>
+							<li>免费WIFI</li>
+							<li>免费畅饮</li>
+						</ul>
+						<h2>会员服务</h2>
+						<ul>
+							<li>手机贴膜</li>
+							<li>积分兑换礼品</li>
+						</ul>
+					</div>
+				</div>	
+				<div class="details">
+					<h3>杭州市·体验店（10）</h3>
+					<div id="shops" class="nav-in">
+						<ul id="physical-store">
+<!-- 							<li> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p> -->
+<!-- 										<span>杭州富阳新登新兴路一</span> -->
+<!-- 										</p> -->
+<!-- 										<p> -->
+<!-- 											<a href="#">查看详情</a> -->
+<!-- 										</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p>专卖店</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d3"> -->
+<!-- 									<p>浙江省杭州市富阳市新登镇新登镇新兴路41号</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d4"><p>0571-63580158</p></div> -->
+<!-- 							</li> -->
+<!-- 							<li class="bg"> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p> -->
+<!-- 										<span>杭州萧山萧绍路众泽专卖</span> -->
+<!-- 									</p> -->
+<!-- 									<p> -->
+<!-- 										<a href="#">查看详情</a> -->
+<!-- 									</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p>专卖店</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d3"> -->
+<!-- 									<p>广东省东莞市中堂镇中麻路40-20</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d4"> -->
+<!-- 									<p>0571-57161133</p> -->
+<!-- 								</div> -->
+<!-- 							</li> -->
+<!-- 							<li> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p> -->
+<!-- 										<span>杭州富阳桂花西路店</span> -->
+<!-- 									</p> -->
+<!-- 									<p> -->
+<!-- 										<a href="#">查看详情</a> -->
+<!-- 									</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p>专卖店</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d3"> -->
+<!-- 									<p>浙江省杭州市富阳市桂花西路26-8</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d4"><p>0571-23282223</p></div> -->
+<!-- 							</li> -->
+<!-- 							<li class="bg"> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p> -->
+<!-- 										<span>杭州萧山市心广场店</span> -->
+<!-- 									</p> -->
+<!-- 									<p> -->
+<!-- 										<a href="#">查看详情</a> -->
+<!-- 									</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p>专卖店</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d3"> -->
+<!-- 									<p>浙江省杭州市萧山区市心广场D座1016</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d4"> -->
+<!-- 									<p>0571-82106502</p> -->
+<!-- 								</div> -->
+<!-- 							</li> -->
+<!-- 							<li> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p> -->
+<!-- 										<span>杭州富阳桂花西路旗舰店</span> -->
+<!-- 									</p> -->
+<!-- 									<p> -->
+<!-- 										<a href="#">查看详情</a> -->
+<!-- 									</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p>旗舰店</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d3"> -->
+<!-- 									<p>浙江省杭州市富阳市桂花西路25-3号</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d4"><p>0571-63586561</p></div> -->
+<!-- 							</li> -->
+<!-- 							<li class="bg"> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p> -->
+<!-- 										<span>杭州武林门旗舰店</span> -->
+<!-- 									</p> -->
+<!-- 									<p> -->
+<!-- 										<a href="#">查看详情</a> -->
+<!-- 									</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p>旗舰店</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d3"> -->
+<!-- 									<p>浙江省杭州市下城区体育场路367号</p> -->
+<!-- 									</div> -->
+<!-- 								<div class="d4"> -->
+<!-- 									<p>0571-82106502</p> -->
+<!-- 								</div> -->
+<!-- 							</li> -->
+<!-- 							<li> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p> -->
+<!-- 										<span>杭州中泰骏飞店</span> -->
+<!-- 									</p> -->
+<!-- 									<p> -->
+<!-- 										<a href="#">查看详情</a> -->
+<!-- 									</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p>专卖店</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d3"> -->
+<!-- 									<p>浙江省杭州市余杭区航泰路135号</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d4"><p>0571-57898685</p></div> -->
+<!-- 							</li> -->
+<!-- 							<li class="bg"> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p> -->
+<!-- 										<span>老余杭安乐路专卖店</span> -->
+<!-- 									</p> -->
+<!-- 									<p> -->
+<!-- 										<a href="#">查看详情</a> -->
+<!-- 									</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p>专卖店</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d3"> -->
+<!-- 									<p>浙江省杭州市余杭区余杭街道安乐148-150号</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d4"> -->
+<!-- 									<p>0571-86101583</p> -->
+<!-- 								</div> -->
+<!-- 							</li> -->
+<!-- 							<li> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p> -->
+<!-- 										<span>杭州老余杭德裕店</span> -->
+<!-- 									</p> -->
+<!-- 									<p> -->
+<!-- 										<a href="#">查看详情</a> -->
+<!-- 									</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p>专卖店</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d3"> -->
+<!-- 									<p>浙江省杭州市余杭区余杭街道禹航路937号</p> -->
+<!-- 								</div> -->
+<!-- 								<div -->
+<!-- 								class="d4"><p>0571-88661716</p></div> -->
+<!-- 							</li> -->
+<!-- 							<li class="bg"> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p> -->
+<!-- 										<span>杭州乔司大井店</span> -->
+<!-- 									</p> -->
+<!-- 									<p> -->
+<!-- 										<a href="#">查看详情</a> -->
+<!-- 									</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d1"> -->
+<!-- 									<p>专卖店</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d3"> -->
+<!-- 									<p>浙江省杭州市余杭区乔司街道葛家车村269号</p> -->
+<!-- 								</div> -->
+<!-- 								<div class="d4"> -->
+<!-- 									<p>0571-86282050</p> -->
+<!-- 								</div> -->
+<!-- 							</li> -->
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>
+		<footer id="footer">
+			<iframe src="footer.html" frameborder="0"></iframe>
+		</footer>
+	</div>	
+	<script src="js/myQuery.js"></script>
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/experience.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/physicalStore.js"></script>
+</body>
+</html>

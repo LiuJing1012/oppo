@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>我的订单</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/myorder.css">
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<style>
+		
+	</style>
+</head>
+<body>
+		<!--头：导航-->
+		<div class="header">
+			<div class="nav1 hidden-xs hidden-sm hidden-md visible-lg">
+			        <div class="nav1-right">
+					<ul>
+						<li><a href="#">Global</a></li>
+						<li id="loginSession1"><a href="register.html">注册</a></li>
+						<li id="loginSession2"><a href="login.html">登录</a></li>
+					</ul>
+			   	</div>
+			</div>
+			<div class=" header-bottom hidden-xs hidden-sm hidden-md visible-lg">
+				<div class="nav-left">
+        				<div class="logo">
+            				<img src="img/index/logo.svg" />
+       				 </div>
+       				 <div class="nav-right">
+          					  <ul>
+                				<li >
+								  <a href="index.html">
+									 首页
+								  </a> 
+								 </li>
+					             <li>
+									<a href="products.html">
+										产品
+									</a>
+								 </li>
+					             <li><a href="store.html" >商城</a></li>
+					             <li><a href="experience.html">体验店</a></li>
+					             <li><a href="service.html">服务</a></li>
+					             <li><a href="ColorOS.html" target="_blank"> ColorOS</a></li>
+					             <li><a href="#">社区</a></li>
+					             <li><a href="#">云服务</a></li>
+                               </ul>
+                     </div>
+                 </div>
+			</div>
+		</div>
+	   <!--订单-->
+		<div class="order">	
+			<div class="page-name">
+				<a href="index.html">首页</a>
+				<span>&nbsp;/&nbsp;我的订单</span>
+			</div>
+			<div class="order-nav">
+				<div class="title"><h1 id="title">我的订单</h1></div>
+				<ul class="order-nav-li">
+					<li>
+						<a href="#" id="title1">购物车</a>
+					</li>
+					<li>
+						<a href="#" id="title2">账户信息</a>
+					</li>
+					<li>
+						<a href="#" id="title3">优惠券</a>
+					</li>
+					<li>
+						<a href="#" id="title4">配送地址</a>
+					</li>
+					<li>
+						<a href="#" class="active" id="title5">我的订单</a>
+					</li>
+				</ul>
+			</div>
+			<div class="order-list" id="order">
+			暂无订单	
+			</div>
+			<div class="order-list" id="address">
+				<div class="address-top">
+					<p>手机发货默认顺丰快递，如收货地址顺丰快递不能送达，我们会更改为EMS快递为您配送。</p>
+					<button>添加新地址</button>
+				</div>
+				<div class="add-address">
+					<div>
+						<label>*收货人姓名：</label>
+						<br>
+						<input type="text">
+					</div>
+					<div>
+						<label>*收货地址：</label>
+						<br>
+						<input type="text">
+					</div>
+					<div>
+						<label>*手机号码：</label>
+						<br>
+						<input type="text">
+					</div>
+					<div>
+						<label>*联系邮箱</label>
+						<br>
+						<input type="text">
+					</div>
+					<div>
+						<button>保存</button>
+						<button>取消</button>
+					</div>
+				</div>
+				
+			</div>
+			<div class="order-list" id="coupon">
+				<p class="p1">您暂时还没有优惠券哦！</p>
+				<p class="p2">（偷偷告诉你，多多参与官网活动，就有可能获得优惠券呐！）</p>
+			</div>
+			<div class="order-list" id="account">
+				<p>oppo账号:130******06</p>
+				<p>用户名：未设置（只能修改一次）</p>
+				<p>积分：0</p>
+				<div>
+					<p>您的账号存在3项风险</p>
+					<div >
+						<span>账号密码</span>
+						<button>修改</button>
+					</div>
+					<div>
+						<span>安全手机</span>
+						<br>
+						<span>130******06</span>
+						<button>修改</button>
+					</div>
+					<div>
+						<span>安全邮箱</span>
+						<br>
+						<span>未绑定</span>
+						<button>绑定</button>
+					</div>
+					<div>
+						<span>保密问题</span>
+						<br>
+						<span>未设置</span>
+						<button>设置</button>
+					</div>
+					<div>
+						<span>紧急联系人</span>
+						<br>
+						<span>未设置</span>
+						<button>添加</button>
+					</div>
+					
+
+				</div>
+			</div>
+			<div class="order-list" id="shopping-cart">
+				<ul class="shopping-cart-nav">
+					<li><input type="checkbox" id="checkbox">全选</li>
+					<li class="li1">产品</li>
+					<li class="li2">数量</li>
+					<li class="li3">单价</li>
+					<li class="li4">操作</li>
+				</ul>
+				<hr>
+				<div class="no-product">
+					<p>购物车空空，去<a href="store.html">逛逛</a>吧</p>
+				</div>
+				<div class="shopping-cart-detail">
+					<div class="product-img">
+						<input type="checkbox" id="checkbox">
+						<a href="#">
+							<img src="img/store/phone2.png" alt="">
+						</a>
+					</div>
+					<div class="product-detail">
+						<span class="span1">R11 玫瑰金色</span>
+						<br>
+						<span>玫瑰金色|全网通|4G+64G</span>
+					</div>
+					<div class="count" id="count">
+						<a class="subtract">-</a>
+						<span class="num">1</span>
+						<a class="add">+</a>
+					</div>
+					<div class="price" >
+						￥<span id="price">2799.00</span>
+					</div>
+					<div class="delete">
+						<a href="#">删除</a>
+					</div>
+					<div class="clear"></div>
+					<div class="subtotal">
+						<p>小计：￥<span id="subtotal">2799.00</span></p>
+						<button>结算</button>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- 页面底部 -->
+		<footer id="footer">
+			<iframe src="footer.html" frameborder="0"></iframe>
+		</footer>
+
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/bootlint.js"></script>
+<script src="js/header.js"></script>
+<script src="js/myorder.js"></script>
+<script src="js/myorder-count.js"></script>
+
+</body>
+</html>
