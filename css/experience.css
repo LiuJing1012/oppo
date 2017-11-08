@@ -1,0 +1,249 @@
+/*导航的上部分*/
+.nav1{
+	width:100%;
+	height:30px;
+    background:#009B72;
+    position: relative;
+}
+.nav1-right{
+	padding-right:120px;
+}
+.nav1 ul{
+    display: inline;
+   
+}
+.nav1 ul li{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 1px solid #47b488;
+}
+.nav1 ul li:hover{
+	background:#47B488;
+}
+.nav1 ul a{
+    width: 66px;
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: right;
+    padding: 20px 6px 20px 5px;
+}
+
+
+/*导航的下部分*/
+.header-bottom{
+    height: 80px;
+    /*box-sizing: border-box;*/
+}
+.logo{
+    height: 80px;
+    display: inline-block;
+    width: 120px;
+    padding-left:100px;
+}
+.header-bottom img{
+    width: 118.7px;
+    height: 19px;
+    margin-top:35px;
+}
+.nav-right{
+    display: flex;
+    float: right;
+    width: 630px;
+    height: 78px;
+    /*box-sizing: border-box;*/
+    padding-top: 32px; 
+    margin-right:120px;
+}
+.nav-right ul{
+    display: flex;
+	
+}
+.nav-right li{
+    width: 73.2px;
+    height: 45.8px;
+    text-align: center;
+/*	line-height:0px;*/
+}
+.nav-right li a{
+    color: #7b7b7b;
+    margin-bottom: 2px;
+    font-size:15px;
+    text-decoration: none;
+}
+.nav-right li a:hover{
+	color:black;
+}
+.nav-right .active{
+    color: #393939;
+    border-bottom:2px solid #47b488;
+}
+
+
+.page-name{
+	font-size:14px;
+	width:83%;
+	height:52px;
+	line-height:52px;
+	margin:0 auto;
+	color:#7B7B7B;
+	
+}
+.page-name a{
+	text-decoration: none;
+	color:#7B7B7B;
+}
+.top-img{
+    position: relative;
+}
+.top-img img{
+	width:100%;
+	height:550px;
+}
+.select{
+    width: 72%;
+    margin: 0 auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.4);
+}
+.select input{
+    width: 50%;
+    height: 72px;
+    font-size: 20px;
+    position: absolute;
+    top:37%;
+    left: 26%;
+    border-radius: 5px;
+    border: transparent;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+.select button{
+    position: absolute;
+    top:37%;
+    right: 24%;
+    height: 74px;
+    width: 150px;
+    font-size: 20px;
+    background: #01ba95;
+    color: #fff;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 5px;
+    border-left: none;
+}
+.city-shop{
+    text-align: center;
+    height: 96px;
+    background-color: #FFFFFF;
+}
+.city-shop p{
+    display: inline;
+}
+.select-shop{
+    height: 96px;
+    line-height: 96px;
+}
+.city-shop select{
+    height: 66px;
+    width: 235px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.mid-body{
+	background:#EDEDED;
+	margin-top:30px;
+}
+.map{
+	position:relative;
+	width:80%;
+	background:#FFFFFF;
+	margin:auto;
+	top:20px;
+	
+}
+.map iframe{
+	width:700px;
+	height:460px;
+	margin-left:10px;
+	margin-top:10px;
+}
+.nav-mid{
+    float: right;
+    padding: 20px 100px;
+    width: 200px;
+    height: 450px;
+    color: #393939;
+/*    border-left: 1px solid #dddddd;*/
+}
+.nav-mid li{
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 28px;
+}
+.nav-in{
+	position:relative;
+	width:80%;
+	background:#FFFFFF;
+	margin:auto;
+	top:20px;
+}
+.details h3{
+	padding-top:40px;
+	margin-left:9%;
+}
+#shops{
+    background-color: #FFFFFF;
+    color: #393939;
+    padding: 20px 20px;
+}
+#shops ul{
+    padding-left: 0;
+}
+#shops ul li{
+    padding: 20px 0;
+    height: 70px;
+}
+#shops ul li  div{
+    display: inline-block;
+    text-align: left;
+    height: 66px;
+    vertical-align: bottom;
+}
+#shops ul p{
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+#shops ul a{
+    color: #1f8657 ;
+}
+
+.d1,.d4{
+ width: 20%;
+}
+.d3{
+    width: 38%;
+    border-right: 1px solid #dddddd;
+}
+.d1{
+    border-right: 1px solid #dddddd;
+}
+
+.bg{
+    background-color: #f7f7f7;
+}
+
+#footer iframe{
+	width:100%;
+	height:341px;
+}
+

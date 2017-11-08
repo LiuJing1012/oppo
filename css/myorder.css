@@ -1,0 +1,287 @@
+/*导航的上部分*/
+.nav1{
+	width:100%;
+	height:30px;
+    background:#009B72;
+    position: relative;
+}
+.nav1-right{
+	padding-right:120px;
+}
+.nav1 ul{
+    display: inline;
+   
+}
+.nav1 ul li{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 1px solid #47b488;
+}
+.nav1 ul li:hover{
+	background:#47B488;
+}
+.nav1 ul a{
+    width: 66px;
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: right;
+    padding: 20px 6px 20px 5px;
+}
+
+
+/*导航的下部分*/
+.header-bottom{
+    height: 80px;
+    /*box-sizing: border-box;*/
+}
+.logo{
+    height: 80px;
+    display: inline-block;
+    width: 120px;
+    padding-left:100px;
+}
+.header-bottom img{
+    width: 118.7px;
+    height: 19px;
+    margin-top:35px;
+}
+.nav-right{
+    display: flex;
+    float: right;
+    width: 630px;
+    height: 78px;
+    /*box-sizing: border-box;*/
+    padding-top: 32px; 
+    margin-right:120px;
+}
+.nav-right ul{
+    display: flex;
+}
+.nav-right li{
+    width: 73.2px;
+    height: 45.8px;
+    text-align: center;
+    
+
+}
+.nav-right li a{
+    color: #7b7b7b;
+    margin-bottom: 2px;
+    font-size:15px;
+    text-decoration: none;
+}
+.nav-right li a:hover{
+	color:black;
+}
+.nav-right .active{
+    color: #393939;
+    border-bottom:2px solid #47b488;
+}
+/*订单*/
+.page-name{
+	font-size:14px;
+	height:52px;
+	line-height:52px;
+}
+.page-name a{
+	text-decoration: none;
+	color:#7B7B7B;
+}
+.order{
+	width:83%;
+	margin:15px auto;
+	
+}
+.order-nav{
+	height:60px;
+}
+.page-name{
+	color:#7B7B7B;
+}
+.order .order-list{
+	border:1px solid #E2E2E2;
+}
+.title{
+	float:left;
+}
+.title h1{
+	margin-top: -5px;
+}
+.order-nav-li li{
+	display:inline;
+	float:right;
+	margin-left:30px;
+	font-size:18px;
+}
+.order-nav-li li a{
+	color:#7B7B7B;
+	text-decoration: none;
+	font-weight:bold;
+}
+.order-nav-li li a:hover{
+	color:#393939;
+}
+.order-nav-li .active{
+	border-bottom:2px solid #47b488;
+	color:#393939;
+}
+.order-list{
+	padding-left:20px;
+	font-size:16px;
+	margin-top:20px;
+	padding:20px;
+	background:#FBFBFB;
+}
+
+.order-list input{
+	width:279px;
+	height:66px;
+	border-radius:4px;
+	border:1px solid #CCCCCC;
+}
+#address{
+	display:none;
+}
+.add-address div{
+	margin-top:30px;
+}
+.address-top p{
+	color:#393939;
+	font-weight:bold;
+}
+.order-list button{
+	width:160px;
+	height:60px;
+	background:#D4EEE1;
+	border:none;
+	color:#1F8657;
+	font-weight:bold;
+
+}
+.order-list button:hover{
+	background:#47B488;
+	color:#FFFFFF;
+}
+#coupon{
+	display: none;
+}
+.coupon p{
+	text-align:center;
+}
+.coupon .p1{
+	font-size:30px;
+}
+#account{
+	display: none;
+}
+.account button{
+	margin-left:950px;
+}
+.account div{
+	margin-top:30px;
+}
+#shopping-cart{
+	display:none;
+}
+.shopping-cart-nav li{
+	display:inline;
+	/*margin-right:150px;*/
+}
+.shopping-cart-nav .li1{
+	margin-left:100px;
+}
+.shopping-cart-nav .li2{
+	margin-left:500px;
+}
+.shopping-cart-nav .li3{
+	margin-left:100px;
+}
+.shopping-cart-nav .li4{
+	margin-left: 100px;
+}
+#checkbox{
+	width:16px;
+	height:16px;	
+}
+.no-product p{
+	font-size:30px;
+	font-weight: bold;
+	text-align:center;
+}
+.product-img{
+	float:left;
+}
+.product-img img{
+	margin-left:40px;
+	width: 104px;
+	height:104px;
+}
+.product-detail{
+	float:left;
+	margin-left:20px;
+}
+.shopping-cart-detail{
+	height:300px;
+	padding-top:80px;
+	padding-left:50px;
+}
+.product-detail .span1{
+	font-size:20px;
+	font-weight:bold;
+}
+.count{
+	width:120px;
+	height:38px;
+	border:1px solid #D3D3D3;
+	float: left;
+	margin-left:260px;
+	line-height:38px;
+	border-radius:5px;
+}
+.count:hover{
+	border:1px solid #2AAD6F;
+}
+.count .num{
+	margin-left:30px;
+	margin-right:30px;
+
+}
+.count .subtract{
+	margin-left:10px;
+	cursor:pointer;
+}
+.count .add{
+	margin-right:10px;
+	cursor:pointer;
+}
+.price{
+	float: left;
+	margin-left:60px;
+}
+.delete{
+	float:left;
+	margin-left:85px;
+}
+.count a{
+	text-decoration: none;
+}
+.clear{
+	clear:both;
+}
+.subtotal{
+	float:right;
+}
+
+
+
+
+/*尾部*/
+#footer iframe{
+	width:100%;
+	height:341px;
+}

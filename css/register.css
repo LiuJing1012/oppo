@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    background-color: #f6f6f6;
+    color: #7b7b7b;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.nav-in{
+    margin: 0 auto;
+    width: 990px;
+}
+#nav{
+    width: 100%;
+    height: 34px;
+    background-color:#2aad6f;
+    line-height: 34px;
+    margin-bottom: 110px;
+}
+#nav ul{
+    list-style: none;
+    display: inline;
+}
+#nav ul li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 34px;
+    border-left: 1px solid #47b488;
+    vertical-align: middle;
+}
+
+#nav ul a {
+    width: 66px;
+    height: 34px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: right;
+    padding: 20px 6px 20px 5px;
+    vertical-align: bottom;
+
+}
+#footer{
+    width: 352px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+
+
+/*注册框*/
+#register{
+    width: 958px;
+    height: 687px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 1px solid #ddd;
+    margin-bottom: 50px;
+}
+.register-tle{
+    width: 958px;
+    height: 111px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 85px;
+}
+.register-tle p{
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    height: 111px;
+    line-height: 111px;
+}
+.register{
+    text-align: center;
+}
+.login-in,.new{
+    width: 320px;
+    height: 46px;
+    margin-bottom: 20px;
+    color: #fff;
+    background: #2aad6f;
+    outline: 0;
+    border: 0;
+    text-align: center;
+}
+.login-in{
+    cursor: pointer;
+}
+.new{
+    background: #fff;
+    color: #000000;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.ck-in p,.ck-in a{
+    line-height: 46px;
+    height: 46px;
+    font-size: 12px;
+}
+.ck-in a{
+    color: #00925f;
+}
+.ck-in{
+    margin: 0 auto;
+    width: 320px;
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #00925f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

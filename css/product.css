@@ -1,0 +1,229 @@
+/*导航的上部分*/
+.nav1{
+	width:100%;
+	height:30px;
+    background:#009B72;
+    position: relative;
+}
+.nav1-right{
+	padding-right:120px;
+}
+.nav1 ul{
+    display: inline;
+   
+}
+.nav1 ul li{
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-left: 1px solid #47b488;
+}
+.nav1 ul li:hover{
+	background:#47B488;
+}
+.nav1 ul a{
+    width: 66px;
+    height: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    text-align: right;
+    padding: 20px 6px 20px 5px;
+}
+
+
+/*导航的下部分*/
+.header-bottom{
+    height: 80px;
+    /*box-sizing: border-box;*/
+}
+.logo{
+    height: 80px;
+    display: inline-block;
+    width: 120px;
+    padding-left:100px;
+}
+.header-bottom img{
+    width: 118.7px;
+    height: 19px;
+    margin-top:35px;
+}
+.nav-right{
+    display: flex;
+    float: right;
+    width: 630px;
+    height: 78px;
+    /*box-sizing: border-box;*/
+    padding-top: 32px; 
+    margin-right:120px;
+}
+.nav-right ul{
+    display: flex;
+	
+}
+.nav-right li{
+    width: 73.2px;
+    height: 45.8px;
+    text-align: center;
+/*	line-height:0px;*/
+}
+.nav-right li a{
+    color: #7b7b7b;
+    margin-bottom: 2px;
+    font-size:15px;
+    text-decoration: none;
+}
+.nav-right li a:hover{
+	color:black;
+}
+.nav-right .active{
+    color: #393939;
+    border-bottom:2px solid #47b488;
+}
+
+
+.product{
+	background:#F7F7F7;
+	color:#7B7B7B;
+}
+.products{
+	width:83%;
+	margin:0 auto;
+	height:820px;
+}
+.page-name{
+	font-size:14px;
+	height:52px;
+	line-height:52px;
+}
+.page-name a{
+	text-decoration: none;
+	color:#7B7B7B;
+}
+.div-left{
+	float:left;
+	height:738px;
+	width:660px;
+	padding-left:10px;
+	
+}
+.img-left{
+	position:relative;
+	height:365px;
+	overflow:hidden;
+	
+}
+.img-left img{
+	position:absolute;
+	width:660px;
+	height:365px;
+}
+.three-product{
+	position:relative;
+}
+.image-right{
+	height:738px;
+	width:420px;
+	overflow:hidden;
+	position:relative;
+}
+.img-right{
+/*	float:left;*/
+/*	position:absolute;*/
+	
+}
+.img-right img{
+	position:absolute;
+	width:420px;
+	height:738px;
+/*	padding-left:15px;*/
+	padding-left:20px;
+}
+.img-left-bottom{
+	margin-top:8px;
+}
+.oppo-set{
+	width:83%;
+	margin:0 auto;
+}
+.oppo-set .phone-title{
+	font-size:25px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	color:#393939;
+}
+.products .oppo-set .r-set span{
+	color:#393939;
+}
+.r-set{
+/*	width:83%;*/
+	height:40px;
+	line-height:40px;
+	font-size:20px;
+	
+}
+.r-img{
+	height:390px;
+	margin-left:-30px;
+	
+	
+}
+.set-img{
+	width:255px;
+	height:364px;
+	background:#FFFFFF;
+	float:left;
+	margin-left:30px;
+	margin-top:20px;	
+}
+.set-img:hover{
+/*	margin-top:3px;*/
+/*	-moz-box-shadow:3px 3px 10px #C1C1C1;*/
+/*	-webkit-box-shadow:3px 3px 10px #C1C1C1;*/
+/*	box-shadow:3px 3px 10px #C1C1C1;*/
+	transition: transform 0.5s ease;
+	transform: translate3d(0,-7px,0);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+}
+.set-img img{
+	width: 160px;
+    height: 180px;
+    margin-top:40px;
+	padding-left:45px;;
+}
+.set-img dd{
+	display: block;
+    margin-top:20px;
+	color:#838383;
+}
+.product-special{
+	font-size:25px;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	color:#393939;
+}
+.two-pic{
+	height:300px;
+	display:flex;
+	margin-bottom:20px;
+}
+.two-pic .two-pic-left{
+	width:583px;
+	height:300px;
+}
+.two-pic .two-pic-right{
+	width:583px;
+	height:300px;
+	margin-left:30px;
+}
+#footer iframe{
+	width:100%;
+	height:341px;
+}
+
+
+
