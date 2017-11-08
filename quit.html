@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="css/register.css" tppabs="http://m.irose.codeboy.com/oppo/css/register.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css" tppabs="http://m.irose.codeboy.com/oppo/css/bootstrap.css"/>
+    <title>退出</title>
+	<style>
+		#register{
+			text-align:center;
+			height:300px;
+			color:#7B7B7B;
+		}
+	</style>
+</head>
+<body>
+<div id="nav">
+    <div class="nav-in" style="height: 34px;">
+        <ul>
+            <li><a href="index.html">OPPO官网</a></li>
+            <li><a href="#">OPPO社区</a></li>
+            <li><a href="ColorOS.html" target="_blank">ColorOS</a></li>
+        </ul>
+    </div>
+</div>
+
+<!--注册框-->
+
+<div id="register">
+    <h2>正在退出......</h1>
+	<h2>三秒跳转到首页</h2>
+</div>
+
+<div id="footer">
+	<p>© 2005 - 2017 东莞市永盛通信科技有限公司 版权所有 粤ICP备08130115号-1</p>
+</div>
+<script>
+   sessionStorage.removeItem("uname");
+        setTimeout(function () {
+            location.href="index.html"
+        },3000);
+
+</script>
+</script>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
